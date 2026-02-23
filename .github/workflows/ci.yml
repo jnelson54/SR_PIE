@@ -121,6 +121,7 @@ jobs:
             .ci_tmp/audit_smoke.tsv
 
   r-sonde-analysis:
+    if: ${{ hashFiles('data/raw/pasta_sonde/**/*.csv') != '' }}
     runs-on: ubuntu-latest
     timeout-minutes: 45
 
