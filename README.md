@@ -43,3 +43,9 @@ seasonal raw and anomaly outputs plus publication-ready figures.
 ```powershell
 "C:\Program Files\R\R-4.5.2\bin\Rscript.exe" analysis\run_all.R
 ```
+
+## Student Onboarding
+
+For student collaborators using VS Code, use:
+
+- `docs/github_vscode_onboarding.md`
