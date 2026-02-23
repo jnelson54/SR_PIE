@@ -18,6 +18,9 @@ Thumbs.db
 /manifest.txt
 /NCC Fiddle Niche (2).manuscript.txt
 /NCC Fiddle Niche (2).manuscript.normalized.txt
+/NCC Fiddle Niche *.pdf
+/NCC Fiddle Niche *.manuscript.txt
+/NCC Fiddle Niche *.manuscript.normalized.txt
 
 # Downloaded source archives and extracted package content
 /data/raw/
