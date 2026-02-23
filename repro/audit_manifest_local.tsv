@@ -1,0 +1,12 @@
+package_id	present_any	present_xml	present_zip	xml_path	zip_path
+knb-lter-pie.362.3	true	true	true	data\raw\pasta\knb-lter-pie.362.3\knb-lter-pie.362.3.xml	data\raw\pasta\knb-lter-pie.362.3.zip
+knb-lter-pie.543.1	true	true	true	data\raw\pasta\knb-lter-pie.543.1\knb-lter-pie.543.1.xml	data\raw\pasta\knb-lter-pie.543.1.zip
+knb-lter-pie.13.11	true	true	true	data\raw\pasta\knb-lter-pie.13.11\knb-lter-pie.13.11.xml	data\raw\pasta\knb-lter-pie.13.11.zip
+knb-lter-pie.4.12	true	true	true	data\raw\pasta\knb-lter-pie.4.12\knb-lter-pie.4.12.xml	data\raw\pasta\knb-lter-pie.4.12.zip
+knb-lter-pie.614.2	true	true	true	data\raw\pasta\knb-lter-pie.614.2\knb-lter-pie.614.2.xml	data\raw\pasta\knb-lter-pie.614.2.zip
+knb-lter-pie.3.11	true	true	true	data\raw\pasta\knb-lter-pie.3.11\knb-lter-pie.3.11.xml	data\raw\pasta\knb-lter-pie.3.11.zip
+knb-lter-pie.609.1	true	true	true	data\raw\pasta\knb-lter-pie.609.1\knb-lter-pie.609.1.xml	data\raw\pasta\knb-lter-pie.609.1.zip
+knb-lter-pie.630.2	true	true	true	knb-lter-pie.630.2.xml	data\raw\pasta\knb-lter-pie.630.2.zip
+knb-lter-pie.631.1	true	true	true	knb-lter-pie.631.1.xml	data\raw\pasta\knb-lter-pie.631.1.zip
+knb-lter-pie.635.1	true	true	true	knb-lter-pie.635.1.xml	data\raw\pasta\knb-lter-pie.635.1.zip
+knb-lter-pie.646.1	true	true	true	knb-lter-pie.646.1.xml	data\raw\pasta\knb-lter-pie.646.1.zip

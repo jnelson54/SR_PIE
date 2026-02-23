@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+
+# IDE / OS
+.DS_Store
+Thumbs.db
+
+# Local raw datasets at repository root (kept outside git)
+/2022_PIE_YSI_*.csv
+/2023_PIE_YSI_*.csv
+/2024_PIE_YSI_*.csv
+/2025_PIE_YSI_*.csv
+/MAR-*.csv
+/MON-*.csv
+/MON-*.xlsx
+/knb-lter-pie.*
+/manifest.txt
+/NCC Fiddle Niche (2).manuscript.txt
+/NCC Fiddle Niche (2).manuscript.normalized.txt
+
+# Downloaded source archives and extracted package content
+/data/raw/
+
+# Optional derived outputs
+/data/derived/
+/data/intermediate/
