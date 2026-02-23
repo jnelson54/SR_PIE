@@ -1,0 +1,423 @@
+Title: Boundary forcing and food-web rewiring permit range expansion 1 
+ Authors: 2 
+James A. Nelson1, Justin Lesser2, Nathaniel Weston3, Emelie M. Foster1, Lucia Rameriz-Joseph1, 3 
+David S. Johnson4, Jane Tucker5, Linda Deegan6, Charles Hopkinson1, Valerie Acosta 4 
+Rodriguez4, Anne Giblin5 5 
+ Affiliations: 6 
+1University of Georgia, Athens, GA, USA 7 
+2Florida International University, Miami, FL, USA 8 
+3Villanova University, Villanova, PA, USA 9 
+4Virginia Institute of Marine Science, Gloucester Point, VA, USA 10 
+5Marine Biological Laboratory 11 
+6Woodwell Climate Research Center 12 
+ 13 
+  14 
+  15 
+ 16 
+ 17 
+ 18 
+ 19 
+ 20 
+ 21 
+ 22 
+
+Abstract 23 
+Climate change is pushing isotherms poleward, expanding habitats for warm-climate species. 24 
+Yet temperature is only one niche axis governing establishment and persistence; migrants 25 
+persist only where abiotic suitability and energy supply support growth and reproduction. We 26 
+test this dual-axis hypothesis in the Gulf of Maine using 25 years of sonde hydrography (2000–27 
+2025) and 12 years of food-web isotopes from the Plum Island Ecosystems LTER, where the 28 
+mud fiddler crab Minuca pugnax appeared in 2014. High-tide waters warmed in lower and 29 
+middle estuary (~0.8 °C decade⁻¹; p<0.001) and conductivity increased in the lower estuary 30 
+(+1.23 mS cm⁻¹ decade⁻¹; p=0.019), indicating strengthened marine forcing during the growing 31 
+season. Marine-plankton support of consumers rose (19→47% lower; 31→59% middle). After 32 
+establishment, burrow density increased ~40% yr⁻¹ and occupancy reached 100% within three 33 
+years. Warming can explain arrival, but trophic subsidy governs persistence and impact, key to 34 
+forecasting poleward range expansions. 35 
+ 36 
+ 37 
+ 38 
+ 39 
+ 40 
+ 41 
+ 42 
+ 43 
+ 44 
+
+Introduction 45 
+     Climate change is reshaping the physical template of ecosystems, altering temperatures, 46 
+salinity regimes, and oxygen dynamics across the globe. As those abiotic baselines shift, species 47 
+ranges are reorganizing as warm-adapted taxa push into newly available habitats and cold-48 
+adapted species retreat1–3. Although temperature often frames explanations of range expansion 49 
+under climate change, we know range expansions do not proceed uniformly and are filtered by 50 
+physical and ecological processes4–7. Our modern understanding of Hutchinson’s niche concept 51 
+would tell us a species' ability to expand its range is carved jointly by the physical template and 52 
+the energetic landscape8,9. Abiotic regimes, classically referred to as the scenopoetic (e.g. 53 
+temperature, salinity, oxygen, and hydroperiod), set the physical conditions that regulate the 54 
+physiological constraints on a species’ range8–10. Simultaneously, Bionomic axes, the consumable 55 
+resources required to sustain a species, determine when and where enough energy is available 56 
+to meet metabolic demands of a species8,11. Populations persist only when energy intake from 57 
+accessible resources reliably exceeds the costs imposed by the environment; when either side 58 
+fails, ranges are limited. Climate change can push both sides: it widens or narrows scenopoetic 59 
+limits (e.g., temperature, salinity) and reroutes the bionomic supply of usable energy through 60 
+food webs. Thus, it can simultaneously open habitat and rewire resource availability. Classic 61 
+examples show that establishment depends on context: warming of the East Australian Current 62 
+allowed the long-spined sea urchin (Centrostephanus rodgersii) to reach Tasmanian reefs, but 63 
+where lobster predators had been depleted the urchins established and overgrazed kelp, 64 
+whereas intact predation damped impacts12. Conversely, abiotic extremes can reverse gains: 65 
+black mangroves (Avicennia germinans) expand with fewer hard freezes along the temperate–66 
+
+subtropical ecotone, but severe cold snaps force diebacks13. These cases underscore a general 67 
+rule: range entry is sustained only when scenopoetic thresholds are crossed and maintained, 68 
+and when the energy pathway the migrant exploits remains dominant across critical seasons. 69 
+     In 2014, researchers documented the presence of the mud fiddler crab (Minuca pugnax) in the 70 
+salt marshes of the Plum Island Longterm Ecological Research Site (PIE LTER)1. This was the 71 
+first observation of this species north of Boston and the first burrowing crab in Plum Island 72 
+since at least the last glaciation1. The historic range of the M. pugnax along the U.S. east coast 73 
+extended across the entire temperate region from Cape Cod to the central Florida peninsula, 74 
+with populations throughout the northern and central Gulf of Mexico. They can be quite prolific 75 
+with burrow densities in excess of a hundred per square meter14. The mud fiddler is an 76 
+ecosystem engineer whose burrowing activity can influence many processes in coastal marshes 77 
+from carbon sequestration to plant growth and physiology15–17. They feed on material deposited 78 
+by tidal action in the areas around their burrows, although the information on their diet is 79 
+somewhat limited17. Studying how their expansion alters the function of the PIE ecosystem will 80 
+be an important question for future research. However, the co-location of a novel range 81 
+expansion into a well-studied LTER provides an unprecedented opportunity to ask if joint 82 
+scenopoetic and bionomic niche thresholds were crossed to allow for the expansion of the mud 83 
+fiddler beyond its historic range.  84 
+     Here we use thirty-five years of seasonal water quality data and twelve years of food web 85 
+data from the PIE LTER to test whether changes in the physical template and energetic 86 
+landscape preceded the expansion of the mud fiddler crab. Specifically, we pair long-term 87 
+anomalies and trends in temperature and salinity with independent indicators of energy flow 88 
+
+through the PIE food web across seasons and within regions of PIE. We test whether range 89 
+expansion is enabled by coordinated shifts along two niche axes. First, warming increases the 90 
+seasonal window of suitable temperatures (releasing a scenopoetic constraint). Second, salinity 91 
+increase signals enhanced marine forcing. Third, strengthened marine forcing and sea-level rise 92 
+increase marine-derived subsidies to benthic consumers, shifting energy pathways toward 93 
+plankton-based production (expanding the bionomic axis). If both axes shift concurrently, 94 
+establishment should transition to persistence and rapid spread. 95 
+Results 96 
+Changes in estuarine physical parameters 97 
+     Long-term high-tide hydrography from PIE LTER sondes indicates sustained warming of 98 
+estuarine waters coincident with the establishment and expansion of Minuca pugnax. We 99 
+analyzed continuous sondes spanning the lower and middle estuary (2000–2025) and 100 
+summarized temperature as seasonal (spring, summer, fall) anomalies after removing the long-101 
+term seasonal mean at each station. Temperature anomalies increased significantly in both 102 
+regions (Fig. 1), corresponding to warming rates of 0.79 °C decade⁻¹ in the lower estuary (95% 103 
+CI 0.38–1.21; q = 6×10⁻⁴) and 0.81 °C decade⁻¹ in the middle estuary (0.46–1.15; q = 8×10⁻⁵). 104 
+Early years (2000–2013) were dominated by negative anomalies, whereas anomalies were 105 
+persistently positive after 2014 (mean post-2014 anomaly: +0.60 °C lower, +0.71 °C middle), 106 
+indicating a shift toward systematically warmer growing-season conditions. 107 
+Conductivity (a proxy for salinity) anomalies also tended to be higher in recent years (Fig. 1). 108 
+Conductivity increased significantly in the lower estuary (+1.23 mS cm⁻¹ decade⁻¹; 95% CI 109 
+0.25–2.21; q = 0.019), while the middle-estuary trend was positive but not distinguishable from 110 
+zero (2.13 mS cm⁻¹ decade⁻¹; −1.19–5.45; q = 0.203). Together, these sonde records indicate a 111 
+
+sustained shift toward warmer—and in the seaward reach, more marine-influenced—conditions 112 
+during the growing season. 113 
+Fiddler Crab Burrow Counts 114 
+  The mud fiddler population in PIE has grown rapidly since 2014 when initial surveys 115 
+found burrows in ~50% of transects and by 2019 and onward 100% of transect locations 116 
+contained burrows. Burrow density has also steadily increased to more than 50 burrow m2 117 
+between 2023-2024 (Fig 2.). A log-linear trend fitted to across-creek annual medians showed a 118 
+~40% increase per year (estimate = 0.340 yr⁻¹ on log scale; 40.5% yr⁻¹, 95% CI 19.9–64.6%; p = 119 
+7.6×10⁻⁴), and a non-parametric check confirmed a strong monotonic rise (Kendall’s τ = 0.76, p = 120 
+0.0023; Supplementary Table x). Together, these results indicate that densities increased several-121 
+fold over the decade even after occupancy reached 100% at all transect points. Occupancy was 122 
+computed as the proportion of surveyed transects with any burrows. Intensity summaries 123 
+(medians/IQR and geometric means with 95% CIs) were calculated only among occupied 124 
+transects each year (Fig. 1). Trend estimates are based on annual, across-creek medians and 125 
+reported on the original scale as percent change per year from the log-linear model; robustness 126 
+was assessed with Kendall’s trend test as noted above. The timing of establishment reported 127 
+here is concordant with the first confirmed PIE observations of M. pugnax in 2014. 128 
+Fiddler Crab Burrow Counts 129 
+  The mud fiddler population in PIE has grown rapidly since 2014 when initial surveys 130 
+found burrows in ~50% of transects and by 2019 and onward 100% of transect locations 131 
+contained burrows. Burrow density has also steadily increased to more than 50 burrow m2 132 
+between 2023-2024 (Fig 2.). A log-linear trend fitted to across-creek annual medians showed a 133 
+
+~40% increase per year (estimate = 0.340 yr⁻¹ on log scale; 40.5% yr⁻¹, 95% CI 19.9–64.6%; p = 134 
+7.6×10⁻⁴), and a non-parametric check confirmed a strong monotonic rise (Kendall’s τ = 0.76, p = 135 
+0.0023; Supplementary Table x). Together, these results indicate that densities increased several-136 
+fold over the decade even after occupancy reached 100% at all marshes. Occupancy was 137 
+computed as the proportion of surveyed transects with any burrows. Intensity summaries 138 
+(medians/IQR and geometric means with 95% CIs) were calculated only among occupied 139 
+transects each year (Fig. 1). Trend estimates are based on annual, across-creek medians and 140 
+reported on the original scale as percent change per year from the log-linear model; robustness 141 
+was assessed with Kendall’s trend test as noted above. The timing of establishment reported 142 
+here is concordant with the first confirmed PIE observations of M. pugnax in 2014. 143 
+Increasing Marine Plankton Support of PIE food webs 144 
+  Marine plankton contributions to consumers biomass increased from 2009-2020, with 145 
+strong regional and species-specific structure (Fig 3). The combined food web annual median 146 
+marine plankton contribution increased significantly in the lower and middle estuary but 147 
+remained near zero in the upper estuary. Median percent contribution of plankton increased 148 
+from 19% to 47% in the lower estuary and from 31% to 59% in the middle estuary from 2009 to 149 
+2020 with positive slopes before and after fiddler crab expansion into PIE (Fig 3. A). Species 150 
+level general linear mixed models (GLMM) show significant increases in three of the four 151 
+species in the food web of marine zooplankton contributions to the diets of consumers. Blue 152 
+mussels increased from 13% to 51%, silversides from 13% to 51%, and softshell clams from 11% 153 
+to 57%. Mummichogs were the only species to show no change in marine plankton 154 
+contributions, maintaining a mean contribution of 33% across the study period (Fig 3 B). 155 
+
+Random effect variances indicated basin-scale structure (region variance of 1.32 on the logit 156 
+scale) with negligible site to site variation in the common slope model, consistent with spatially 157 
+coherent change.       158 
+Discussion 159 
+  Our results fit a broader pattern in which global change asymmetrically rewires food 160 
+webs by differentially altering habitats and the energy pathways that connect them. In PIE, 161 
+regional ocean forcing strengthened the marine plankton pathway into marsh networks, while 162 
+spring warming and salinification crossed physiological and habitat thresholds for a warm-163 
+affinity burrower. Conceptually, this is the coastal analog of asymmetric rewiring observed 164 
+across ecosystems: when one compartment (here, shelf waters) is altered more than others, 165 
+generalist consumers re-weight habitat coupling and energy flows reorganize18. Similar 166 
+reweighting follows marine heatwaves and thermal anomalies that reshape plankton 167 
+composition and carbon processing with cascading consumer effects19. From these dynamics 168 
+follow testable predictions: (i) years with earlier, saltier springs and sustained marine-plankton 169 
+access should show the largest step-changes in consumer diets; (ii) responses should be region-170 
+stratified, strongest at inland margins where saline intrusion expands the accessible niche; and 171 
+(iii) colonization success of warm-affinity migrants should covary with the magnitude and 172 
+persistence of marine-pathway dominance. Tracking these indicators in integrated monitoring 173 
+offers early warning of impending rewiring and range entries in other rapidly warming, sea-174 
+level-rise estuaries. 175 
+  The Gulf of Maine (GoM) has entered a distinctly warmer, more variable regime driven 176 
+by shifts in the balance between Gulf Stream–derived Atlantic Water and the Labrador 177 
+
+Current20. Syntheses show multi-decadal warming with marked acceleration in the last decade, 178 
+including unusually strong summertime incursions of warm, salty water onto the shelf, and 179 
+basin-scale marine heatwaves (2012, 2016) 21,22. These forcings lengthen the warm season, 180 
+increase stratification, and advance springlike conditions. The same signatures appear in PIE: a 181 
+mid-2010s shift to warmer, saltier springs and stronger saline intrusion into the middle/upper 182 
+estuary, the very seasons/regions where our segmented trends flip positive. Quantitatively, 183 
+spring salinity increased by ~5–7 PSU and post-2014 spring temperature trends strengthened to 184 
+~+0.9 °C yr⁻¹ in middle and upper reaches (Fig. 1), consistent with enhanced shelf influence. 185 
+     GoM-scale biological and physical changes foreshadow PIE’s trophic reorganization. 186 
+Warming and altered mixing have re-sorted shelf communities toward temperate taxa; 187 
+projections indicate continued surface warming, saltier depths, and stronger stratification, 188 
+conditions that enhance delivery and residence of marine-sourced plankton in coastal corridors. 189 
+Our stable isotopes track a decadal rise in marine-plankton support for consumers in 190 
+lower/middle PIE, while upper-estuary responses remain muted—exactly the gradient expected 191 
+from the inland propagation of saline influence. Analogous threshold dynamics underpin the 192 
+recent lobster boom (juvenile thermal gate ≈ 12 °C interacting with local mixing), and centuries-193 
+long, now-accelerating sea-level rise amplifies tidal prisms and inland saline penetration, 194 
+pushing marine signals farther into marsh networks and increasing particle delivery to feeding 195 
+zones of Minuca pugnax. 196 
+  Together these forces reach PIE along three linked pathways that match our signals. (i) 197 
+Boundary-condition shift: earlier, saltier shelf inflow drives the post-2014 spring 198 
+warming/salinification, with a lagged step inland as intrusion propagates. (ii) Energetic 199 
+
+rerouting: strengthened shelf influence and stratification increase marine-plankton residence, 200 
+captured as rising plankton contribution to consumer biomass in lower/middle PIE. (iii) Tidal 201 
+amplification: sea-level rise increases flood extent and particle transport onto marsh platforms. 202 
+The result is an asymmetric rewiring: marine pathways strengthen relative to riverine/detrital 203 
+ones while the scenopoetic gate (spring temperature/salinity) opens—explaining the timing 204 
+(mid-2010s entry), spatial gradient (seaward first, interior lag), and rapid post-entry growth we 205 
+observe. Our breakpoint sweep supports a multi-phase shift, with break windows clustering in 206 
+2013–2015 for spring temperature and extending to ~2016 for upper-estuary salinity (interior 207 
+propagation), rather than a single instantaneous break. Alternative influences (e.g., episodic 208 
+larval supply, freshwater-discharge anomalies, geomorphic change) remain plausible, but the 209 
+coherent directionality and regional synchrony across physical and trophic indicators point to 210 
+GoM forcing as the dominant driver. 211 
+     Published experiments on M. pugnax larvae show that successful development to the 212 
+megalopa stage is strongly temperature dependent: few larvae complete development at 213 
+temperatures below ~18 °C, and no larvae complete development at 14 °C or 10 °C. 214 
+Oceanographic data from near the historical northern range limit indicate that summer sea-215 
+surface temperatures historically exceeded 16 °C only briefly each year, and temperatures at 5–216 
+23 m depth, where later-stage larvae are commonly found, were often <16 °C even in 217 
+midsummer. These constraints led Sanford et al. to infer a lower larval thermal gate around 18 218 
+°C, which, together with a short summer warm period, historically limited northward expansion. 219 
+     Our anomaly analysis indicates that the PIE estuary has warmed sufficiently that spring and 220 
+early-summer conditions in the middle and upper estuary are now consistently 1–2 °C warmer 221 
+than the pre-2014 baseline. When placed in the context of the Massachusetts Bay and Gulf of 222 
+Maine records, where 2012–2013 summers were 0.7–1.3 °C warmer than the 2001–2013 mean 223 
+during the period when M. pugnax expanded northward, the magnitude of the PIE anomalies is 224 
+
+comparable. In practical terms, this warming lengthens the seasonal window in which near-225 
+surface and shallow-shelf waters exceed the ~18 °C larval threshold, and reduces the frequency 226 
+with which larvae experience development-limiting temperatures (<14–16 °C) during their 227 
+offshore phase. 228 
+     Thus, the hydrographic changes we document, multi-decadal warming of ~0.5–0.8 °C per 229 
+decade and a shift from predominantly negative to consistently positive spring anomalies, are 230 
+consistent with relaxation of the larval thermal barrier identified by Sanford et al. Within this 231 
+expanded thermal window, the concurrent increase in estuarine salinity and the strengthening of 232 
+marine-plankton energy pathways (below) act as complementary scenopoetic and bionomic 233 
+changes that support the establishment and rapid expansion of M. pugnax in PIE. 234 
+  Our results emphasize that maintenance, not just threshold crossing, governs 235 
+establishment. Operationally, two indicators travel well across systems: (a) a persistence metric 236 
+for the scenopoetic gate (e.g., multi-year exceedance of a spring temperature/salinity threshold); 237 
+and (b) a dominance metric for the bionomic axis (e.g., sustained rise in marine-plankton 238 
+contribution to consumers). Transient expansions are expected when either indicator fails—e.g., 239 
+hard-freeze years that reset mangrove limits despite overall warming, or strong top-down control 240 
+that suppresses urchin expansion even as currents warm. 241 
+ 242 
+ 243 
+ 244 
+Methods 245 
+Plum Island Ecosystems (PIE) LTER, Massachusetts, USA. 246 
+  Our work was conducted in the macrotidal, salt-marsh–dominated Plum Island Sound 247 
+Long-Term Ecological Research Site on the Gulf of Maine coast of northeastern Massachusetts. 248 
+Freshwater input is delivered mainly by the Parker and Ipswich Rivers from a mixed forest–249 
+suburban watershed. The estuary is shallow and vertically well mixed, with a persistent 250 
+
+horizontal salinity gradient from tidal-fresh/oligohaline reaches upstream to polyhaline waters 251 
+near the barrier-inlet. Extensive Spartina alterniflora and S. patens marshes, dense tidal-creek 252 
+networks, and broad intertidal flats promote strong pelagic–benthic coupling. Tidal range is large 253 
+(2–3 m), residence times are short (days), and interannual hydrography is shaped by river 254 
+discharge, storms/nor’easters, and marsh flooding. For analysis we stratified the system into 255 
+upper, middle, and lower regions that capture this hydrogeomorphic gradient, from freshwater-256 
+influenced creeks to marine-dominated open waters. Long-term PIE LTER instrumentation 257 
+(continuous water-quality sensors, discharge gauges) and standardized biological sampling 258 
+provide the multi-decadal context and consistency required for year-to-year comparisons. 259 
+Estuarine Water Physical Measurements 260 
+ We analyzed long-term water‐quality transects from the Parker and Rowley Rivers (PIE 261 
+LTER), sampled seasonally (spring, fall) from 1995–2024 across the middle and upper estuary. 262 
+Station casts were cleaned and harmonized, then aggregated to region, season, and year 263 
+means for temperature and salinity. This produced one seasonal mean per variable, region, and 264 
+year. Temporal support (years with data) per panel was: middle–spring n=29 (pre-2014=19, 265 
+post-2014=10), middle–fall n=22 (13, 9), upper–spring n=29 (19, 10), and upper–fall n=22 (13, 266 
+9). No outlier removal or additional filtering was applied; all computations used these seasonal 267 
+means. 268 
+Piecewise regression anchored to first detection (2014) 269 
+  For the main figure, we modeled each panel with a two-segment linear regression 270 
+having a fixed break at 2014 anchored to the first M. pugnax record at PIE. We estimated 95% 271 
+CIs from the OLS covariance matrix; segments were drawn using model predictions at the 272 
+observed segment endpoints (no extrapolation). Slope “significance” shown by color denotes 273 
+whether the 95% CI excludes zero (increase, decrease, or no trend, Fig 1). 274 
+Equation 1: 275 
+Breakpoint sensitivity (ΔBIC windows) for robustness 276 
+
+     To test whether 2014 is a unique or merely representative break, we swept candidate break 277 
+years t0 across the observed range while requiring a minimum of ≥2 years on each side (results 278 
+are unchanged if ≥3 is required). For each candidate t0 in each panel we re-fit the model above 279 
+and recorded pre/post slopes, step size, log-likelihood, AIC/BIC, and RMSE. We then computed 280 
+BIC differences. 281 
+Equation 2: 282 
+and defined the supported window as the contiguous set of break years with ΔBIC ≤ 2 283 
+(substantial support). The BIC-minimizing year is shown with a small glyph in the supplementary 284 
+figure. Where the post-segment variance was too small or segment lengths were short, post-285 
+slope/step CIs were not identifiable; these cases are reported as NA (retained to avoid 286 
+overstating precision). 287 
+   288 
+Crab Burrow Density 289 
+  To quantify the density of fiddler crabs, we conducted annual quadrat surveys in six 290 
+marshes during the growing season (May-September) from 2014-2025. At each marsh, we 291 
+established a 200 m transect parallel to a tidal creek and selected 20 points along that transect 292 
+using a random number generator. At each point along the transect, we counted the burrows of 293 
+adult crabs (>1.0 cm) in 0.0625 m2 quadrat that was within 0.5 m from the marsh edge. Site 294 
+metadata (creek identity, bank/branch, habitat, reach type) and plot distances were recorded at 295 
+each visit. 296 
+  We estimated the long-term multiplicative trend in annual density using a log-linear 297 
+model fit to the annual across-creek medians, reporting the percent change per year and 95% 298 
+
+confidence intervals from the model’s slope estimate. This approach treats interannual change 299 
+as approximately proportional on the original scale while retaining zeros via the transformation. 300 
+ Food Web Analysis 301 
+  We used the PIE LTER long-term stable isotope food web functional group data set 302 
+spanning the three estuarine regions (upper, middle, and lower). All sampling and mixing model 303 
+protocols follow Nelson et al. 2015. Sampling is conducted between August and September 304 
+annually to capture the production sources integrated over the spring and summer growing 305 
+season in PIE. We assessed the change in marine plankton contribution over time using beta 306 
+GLMMs, logit link with random intercepts for region and site. 307 
+  308 
+  309 
+   310 
+References 311 
+1.     Johnson, D. S. Fiddler on the roof: a northern range extension for the marsh 312 
+fiddler crab Uca pugnax. Journal of Crustacean Biology 34, 671–673 (2014). 313 
+2.     Osland, M. J. et al. Climatic controls on the global distribution, abundance, and 314 
+species richness of mangrove forests. Ecol Monogr 87, 341–359 (2017). 315 
+3.     Perry, A. L., Low, P. J., Ellis, J. R. & Reynolds, J. D. Climate Change and 316 
+Distribution Shifts in Marine Fishes. https://www.science.org (2005). 317 
+4.     Ellingsen, K. E. et al. The rise of a marine generalist predator and the fall of beta 318 
+diversity. Glob Chang Biol 26, 2897–2907 (2020). 319 
+5.     Freeman, B. G., Strimas-Mackey, M. & Miller, E. T. Interspecific Competition 320 
+Limits Bird Species’ Ranges in Tropical Mountains. https://www.science.org. 321 
+6.     Martínez-Soto, K. S. & Johnson, D. S. The density of the Atlantic marsh fiddler 322 
+crab (Minuca pugnax, Smith, 1870)(Decapoda: Brachyura: Ocypodidae) in its expanded 323 
+range in the Gulf of Maine, USA. The Journal of Crustacean Biology 40, 544–548 (2020). 324 
+
+7.     Zhu, K., Woodall, C. W. & Clark, J. S. Failure to migrate: Lack of tree range 325 
+expansion in response to climate change. Glob Chang Biol 18, 1042–1052 (2012). 326 
+8.     Colwell, R. K. & Rangel, T. F. Hutchinson’s Duality: The Once and Future Niche. 327 
+www.pnas.org/cgi/content/full/. 328 
+9.     Chase, J. M. & Leibold, M. A. Ecological Niches: Linking Classical and 329 
+Contemporary Approaches. (University of Chicago Press, 2009). 330 
+10.   Spence, A. R. & Tingley, M. W. The challenge of novel abiotic conditions for 331 
+species undergoing climate‐induced range shifts. Ecography 43, 1571–1590 (2020). 332 
+11.   Soberón, J. Grinnellian and Eltonian niches and geographic distributions of 333 
+species. Ecol Lett 10, 1115–1123 (2007). 334 
+12.   Ling, S. D., Johnson, C. R., Frusher, S. D. & Ridgway, K. R. Overfishing 335 
+Reduces Resilience of Kelp Beds to Climate-Driven Catastrophic Phase Shift. 336 
+www.pnas.org/cgi/content/full/. 337 
+13.   Osland, M. J., Enwright, N., Day, R. H. & Doyle, T. W. Winter climate change and 338 
+coastal wetland foundation species: Salt marshes vs. mangrove forests in the 339 
+southeastern United States. Glob Chang Biol 19, 1482–1494 (2013). 340 
+14.   Aspey, W. P. Fiddler Crab Behavioral Ecology: Burrow Density in Uca Pugnax 341 
+(Smith) and Uca Pugilator (Bosc) (Decapoda Brachyura). Crustaceana vol. 34 (1978). 342 
+15.   Grow, A. K., Schutte, C. A. & Roberts, B. J. Fiddler crab burrowing increases salt 343 
+marsh greenhouse gas emissions. Biogeochemistry 158, 73–90 (2022). 344 
+16.   Smith, N. F., Wilcox, C. & Lessmann, J. M. Fiddler crab burrowing affects growth 345 
+and production of the white mangrove (Laguncularia racemosa) in a restored Florida 346 
+coastal marsh. Mar Biol 156, 2255–2266 (2009). 347 
+17.   Shanholtzer, S. F. ENERGY FLOW, FOOD HABITS AND POPULATION 348 
+DYNAMICS OF UCA PUGNAX IN A SALT MARSH SYSTEM. (University of Georgia, 349 
+1973). 350 
+
+18.   Ward, C. A. et al. Global Change Asymmetrically Rewires Ecosystems. Ecol Lett 351 
+28, (2025). 352 
+19.   Bif, M. B. et al. Marine heatwaves modulate food webs and carbon transport 353 
+processes. Nat Commun 16, 8535 (2025). 354 
+20.   Seidov, D., Mishonov, A. & Parsons, R. Recent warming and decadal variability 355 
+of Gulf of Maine and Slope Water. Limnol Oceanogr 66, 3472–3488 (2021). 356 
+21.   Karmalkar, A. V. & Horton, R. M. Drivers of exceptional coastal warming in the 357 
+northeastern United States. Nat Clim Chang 11, 854–860 (2021). 358 
+22.   Pershing, A. J., Mills, K. E., Dayton, A. M., Franklin, B. S. & Kennedy, B. T. 359 
+Evidence for adaptation from the 2016 marine heatwave in the Northwest Atlantic Ocean. 360 
+Oceanography 31, 152–161 (2018). 361 
+  362 
+ 363 
+ 364 
+ 365 
+ 366 
+ 367 
+ 368 
+ 369 
+Figures 370 
+
+ 371 
+ Dashed line marks 2014, the first observation of Minuca pugnax at PIE. Piecewise slopes 372 
+(pre/post-2014) with 95% CI significance are color-coded. Breakpoint sensitivity identifies panel-373 
+specific BIC minima clustered in the mid-2010s for spring temperature and later for upper-374 
+estuary salinity (Supplementary Fig. X; Supplementary Tables Y–Z).  375 
+ 376 
+
+
+ 377 
+ 378 
+ 379 
+ 380 
+ 381 
+ 382 
+ 383 
+ 384 
+ 385 
+
+
+ 386 
+ 387 
+ 388 
+ 389 
+  390 
+  391 
+  392 
+  393 
+ Supplement 394 
+ 395 
+ 396 
+
+
+  397 
+  398 
+  399 
+  400 
+ 401 

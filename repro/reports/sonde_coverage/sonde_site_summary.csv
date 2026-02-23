@@ -1,0 +1,5 @@
+site_code,site_name,years_with_data,first_year,last_year,first_date,last_date,min_completeness_pct,max_gap_hours_any_year,total_gaps_gt_24h
+IB,Ipswich Bay / lower estuary buoy,4,2022,2025,2022-05-11T13:45:00,2025-11-04T15:15:00,100.0,0.25,0
+IBYC,Ipswich Bay Yacht Club (lower estuary),21,2000,2020,2000-04-24T10:46:00,2020-12-10T13:30:00,49.49,844.75,6
+MB,Middle Road Bridge (upper Parker),15,2001,2019,2001-05-31T16:00:52,2019-11-14T15:15:00,68.8,765.25,5
+MR,Middle Road Bridge (upper Parker),4,2022,2025,2022-05-12T14:00:00,2025-11-03T11:00:00,100.0,0.25,0

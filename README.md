@@ -29,3 +29,17 @@ python repro/scripts/download_pasta_packages.py `
 
 See `repro/PIPELINE_PLAN.md` for the end-to-end Nature Communications-grade pipeline plan.
 
+## R Sonde Analysis Pipeline
+
+The full reproducible sonde anomaly workflow for the manuscript is in:
+
+- `analysis/run_all.R`
+- `analysis/README.md`
+
+It uses original files under `data/raw/pasta_sonde`, applies the study inclusion rules
+(`IBYC+IB`, `MB+MR`, exclude `RR`/`RO`/`RT1A`), and builds June-July and August-September
+seasonal raw and anomaly outputs plus publication-ready figures.
+
+```powershell
+"C:\Program Files\R\R-4.5.2\bin\Rscript.exe" analysis\run_all.R
+```

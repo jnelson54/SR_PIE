@@ -119,3 +119,51 @@ jobs:
             repro/audit_manifest_local_ci.tsv
             repro/audit_full_estuarine_sonde_ci.tsv
             .ci_tmp/audit_smoke.tsv
+
+  r-sonde-analysis:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up R
+        uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: "release"
+
+      - name: Install R dependencies
+        uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          packages: |
+            any::dplyr
+            any::tidyr
+            any::purrr
+            any::readr
+            any::stringr
+            any::lubridate
+            any::tibble
+            any::lmtest
+            any::sandwich
+            any::ggplot2
+            any::scales
+
+      - name: Run sonde analysis pipeline
+        run: Rscript analysis/run_all.R
+
+      - name: Verify expected R outputs
+        run: |
+          test -f analysis/output/sonde/sonde_seasonal_means_junjul_augsep.csv
+          test -f analysis/output/sonde/sonde_anomaly_baselines.csv
+          test -f analysis/output/sonde/sonde_trend_results.csv
+          test -f analysis/figures/figure_temperature_raw_anomaly.png
+          test -f analysis/figures/figure_salinity_raw_anomaly.png
+
+      - name: Upload sonde analysis artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: sonde-analysis
+          path: |
+            analysis/output/sonde
+            analysis/figures
