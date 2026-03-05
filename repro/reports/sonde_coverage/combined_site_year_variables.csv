@@ -1,0 +1,45 @@
+combined_site,year,canonical_variables_available,raw_variables_available
+LOWER_MAIN,2000,conductivity;depth;dissolved_oxygen;salinity;temperature;turbidity,DO Charge;DO Conc;DO%;Depth;Salinity;SpCond;Temp;Turbidity
+LOWER_MAIN,2001,chlorophyll_algae;conductivity;depth;dissolved_oxygen;fdom_fluorescence;salinity;temperature;turbidity,Chlorophyll;DO Charge;DO Conc;DO%;Depth;Fluorescence;Salinity;SpCond;Temp;Turbidity
+LOWER_MAIN,2002,chlorophyll_algae;conductivity;depth;dissolved_oxygen;fdom_fluorescence;salinity;temperature;turbidity,Chlorophyll;DO Charge;DO Conc;DO%;Depth;Fluorescence;Salinity;SpCond;Temp;Turbidity
+LOWER_MAIN,2003,chlorophyll_algae;conductivity;depth;dissolved_oxygen;fdom_fluorescence;salinity;temperature;turbidity,Chlorophyll;DO Charge;DO Conc;DO%;Depth;Fluorescence;Salinity;SpCond;Temp;Turbidity
+LOWER_MAIN,2004,chlorophyll_algae;conductivity;depth;dissolved_oxygen;fdom_fluorescence;salinity;temperature;turbidity,Chlorophyll;DO%;DO_Charge;DO_Conc;Depth;Fluorescence;Salinity;SpCond;Temp;Turbidity
+LOWER_MAIN,2005,conductivity;depth;dissolved_oxygen;salinity;temperature,Cond;DO%;DO_Charge;DO_Conc;Depth;Salinity;SpCond;Temp
+LOWER_MAIN,2006,conductivity;depth;dissolved_oxygen;salinity;temperature,Cond;DO%;DO_Charge;DO_Conc;Depth;Salinity;SpCond;Temp
+LOWER_MAIN,2007,conductivity;depth;dissolved_oxygen;salinity;temperature,Cond;DO%Local;DO%YSI;DO_Charge;DO_Conc;Depth;ODO%Local;ODO%YSI;ODO_Conc;Salinity;SpCond;Temp
+LOWER_MAIN,2008,conductivity;depth;dissolved_oxygen;salinity;temperature,Cond;Depth;ODO Conc;ODO%Local;ODO%YSI;Salinity;SpCond;Temp
+LOWER_MAIN,2009,conductivity;depth;dissolved_oxygen;salinity;temperature,Cond;Depth;ODO Conc;ODO%Local;ODO%YSI;Salinity;SpCond;Temp
+LOWER_MAIN,2010,conductivity;depth;dissolved_oxygen;salinity;temperature,Cond;Depth;ODO Conc;ODO%Local;ODO%YSI;Salinity;SpCond;Temp
+LOWER_MAIN,2011,conductivity;depth;dissolved_oxygen;salinity;temperature,Cond;Depth;ODO Conc;ODO%Local;ODO%YSI;Salinity;SpCond;Temp
+LOWER_MAIN,2012,conductivity;depth;dissolved_oxygen;salinity;temperature,Cond;Depth;ODO Conc;ODO%Local;ODO%YSI;Salinity;SpCond;Temp
+LOWER_MAIN,2013,conductivity;depth;dissolved_oxygen;salinity;temperature,Cond;Depth;ODO Conc;ODO%Local;ODO%YSI;Salinity;SpCond;Temp
+LOWER_MAIN,2014,conductivity;depth;dissolved_oxygen;salinity;temperature,Cond;Depth;ODO Conc;ODO%Local;ODO%YSI;Salinity;SpCond;Temp
+LOWER_MAIN,2015,conductivity;depth;dissolved_oxygen;salinity;temperature,Cond;Depth;ODO Conc;ODO%Local;ODO%YSI;Salinity;SpCond;Temp
+LOWER_MAIN,2016,conductivity;depth;dissolved_oxygen;salinity;temperature,Cond;Depth;ODO Conc;ODO%Local;ODO%YSI;Salinity;SpCond;Temp
+LOWER_MAIN,2017,conductivity;depth;dissolved_oxygen;salinity;temperature,Cond;Depth;ODO Conc;ODO%Local;ODO%YSI;Salinity;SpCond;Temp
+LOWER_MAIN,2018,conductivity;depth;dissolved_oxygen;salinity;temperature,Cond;Depth;ODO Conc;ODO%Local;ODO%YSI;Salinity;SpCond;Temp
+LOWER_MAIN,2019,conductivity;depth;dissolved_oxygen;salinity;temperature,Cond;Depth;ODO Conc;ODO%Local;ODO%YSI;Salinity;SpCond;Temp
+LOWER_MAIN,2020,conductivity;depth;dissolved_oxygen;salinity;temperature,Cond;Depth;ODO Conc;ODO%Local;ODO%YSI;Salinity;SpCond;Temp
+LOWER_MAIN,2022,conductivity;depth;dissolved_oxygen;ph;salinity;temperature,Cond;DO_conc;DO_local;DO_sat;Depth;Pressure;Salinity;Site;SpCond;Temp;VerticalPosition;nLFCond;pH;pH_mV
+LOWER_MAIN,2023,chlorophyll_algae;conductivity;depth;dissolved_oxygen;fdom_fluorescence;ph;salinity;temperature;turbidity,Chlorophyll;Cond;DO_conc;DO_local;DO_sat;Depth;Phycoerythrin;Pressure;Salinity;Site;SpCond;Temp;Turbidity;VerticalPosition;fDOM_QSU;fDOM_RFU;nLFCond;pH;pH_mV
+LOWER_MAIN,2024,chlorophyll_algae;conductivity;depth;dissolved_oxygen;fdom_fluorescence;ph;salinity;temperature;turbidity,Chlorophyll;Cond;DO_conc;DO_local;DO_sat;Depth;Phycoerythrin;Pressure;Salinity;Site;SpCond;Temp;Turbidity;VerticalPosition;fDOM_QSU;fDOM_RFU;nLFCond;pH;pH_mV
+LOWER_MAIN,2025,chlorophyll_algae;conductivity;depth;dissolved_oxygen;fdom_fluorescence;ph;salinity;temperature;turbidity,Chlorophyll;Cond;DO_conc;DO_local;DO_sat;Depth;Phycoerythrin;Pressure;Salinity;Site;SpCond;Temp;Turbidity;VerticalPosition;fDOM_QSU;fDOM_RFU;nLFCond;pH;pH_mV
+MIDDLE_MAIN,2001,conductivity;depth;dissolved_oxygen;salinity;temperature;turbidity,DO Charge;DO Conc;DO%;Depth;Salinity;SpCond;Temp;Turbidity
+MIDDLE_MAIN,2002,conductivity;depth;dissolved_oxygen;salinity;temperature;turbidity,DO Charge;DO Conc;DO%;Depth;Salinity;SpCond;Temp;Turbidity
+MIDDLE_MAIN,2003,conductivity;depth;dissolved_oxygen;salinity;temperature,Cond;DO Charge;DO Conc;DO%;Depth;Salinity;SpCond;Temp
+MIDDLE_MAIN,2004,conductivity;depth;dissolved_oxygen;salinity;temperature,Cond;DO Charge;DO Conc;DO%;Depth;Salinity;SpCond;Temp
+MIDDLE_MAIN,2005,conductivity;depth;dissolved_oxygen;salinity;temperature,Cond;DO Charge;DO Conc;DO%;Depth;Salinity;SpCond;Temp
+MIDDLE_MAIN,2006,conductivity;depth;dissolved_oxygen;salinity;temperature,Cond;DO Charge;DO Conc;DO%;Depth;Salinity;SpCond;Temp
+MIDDLE_MAIN,2007,conductivity;depth;dissolved_oxygen;salinity;temperature,Cond;DO Charge;DO Conc;DO%Local;DO%YSI;Depth;Salinity;SpCond;Temp
+MIDDLE_MAIN,2008,conductivity;depth;dissolved_oxygen;salinity;temperature,BAR;Cond;Corrected Depth;DO Charge;DO Conc;DO%Local;DO%YSI;Final Depth;Measured Depth;ODO%Local;ODO%YSI;Salinity;SpCond;Temp
+MIDDLE_MAIN,2009,conductivity;depth;dissolved_oxygen;salinity;temperature,Cond;Corrected Depth;Depth Offset;Measured BAR;Measured Depth;ODO Conc;ODO%Local;ODO%YSI;Salinity;SpCond;Temp
+MIDDLE_MAIN,2014,conductivity;depth;dissolved_oxygen;salinity;temperature,Cond;DO Conc;DOsat%;Depth;Dosat%Local;Salinity;SpCond;Temp
+MIDDLE_MAIN,2015,conductivity;depth;dissolved_oxygen;salinity;temperature,Cond;DO Conc;DOsat%;DOsat%Local;Depth;Salinity;SpCond;Temp
+MIDDLE_MAIN,2016,conductivity;depth;dissolved_oxygen;salinity;temperature,Cond;DO Conc;DOsat%;DOsat%Local;Depth;Salinity;SpCond;Temp
+MIDDLE_MAIN,2017,conductivity;depth;dissolved_oxygen;salinity;temperature,Cond;DO Conc;DOsat%;DOsat%Local;Depth;Salinity;SpCond;Temp
+MIDDLE_MAIN,2018,conductivity;depth;dissolved_oxygen;salinity;temperature,Cond;DO Conc;DOsat%;DOsat%Local;Depth;Salinity;SpCond;Temp
+MIDDLE_MAIN,2019,conductivity;depth;dissolved_oxygen;salinity;temperature,Cond;DO Conc;DOsat%;DOsat%Local;Depth;Salinity;SpCond;Temp
+MIDDLE_MAIN,2022,conductivity;depth;dissolved_oxygen;ph;salinity;temperature,Cond;DO_conc;DO_local;DO_sat;Depth;Pressure;Salinity;Site;SpCond;Temp;VerticalPosition;nLFCond;pH;pH_mV
+MIDDLE_MAIN,2023,chlorophyll_algae;conductivity;depth;dissolved_oxygen;fdom_fluorescence;ph;salinity;temperature;turbidity,Chlorophyll;Cond;DO_conc;DO_local;DO_sat;Depth;Phycoerythrin;Pressure;Salinity;Site;SpCond;Temp;Turbidity;VerticalPosition;fDOM_QSU;fDOM_RFU;nLFCond;pH;pH_mV
+MIDDLE_MAIN,2024,chlorophyll_algae;conductivity;depth;dissolved_oxygen;fdom_fluorescence;ph;salinity;temperature;turbidity,Chlorophyll;Cond;DO_conc;DO_local;DO_sat;Depth;Phycoerythrin;Pressure;Salinity;Site;SpCond;Temp;Turbidity;VerticalPosition;fDOM_QSU;fDOM_RFU;nLFCond;pH;pH_mV
+MIDDLE_MAIN,2025,chlorophyll_algae;conductivity;depth;dissolved_oxygen;fdom_fluorescence;ph;salinity;temperature;turbidity,Chlorophyll;Cond;DO_conc;DO_local;DO_sat;Depth;Phycoerythrin;Pressure;Salinity;Site;SpCond;Temp;Turbidity;VerticalPosition;fDOM_QSU;fDOM_RFU;nLFCond;pH;pH_mV

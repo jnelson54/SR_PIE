@@ -1,0 +1,5 @@
+file,path
+figure_temperature_raw_anomaly.png,analysis/figures/figure_temperature_raw_anomaly.png
+figure_temperature_raw_anomaly.pdf,analysis/figures/figure_temperature_raw_anomaly.pdf
+figure_salinity_raw_anomaly.png,analysis/figures/figure_salinity_raw_anomaly.png
+figure_salinity_raw_anomaly.pdf,analysis/figures/figure_salinity_raw_anomaly.pdf

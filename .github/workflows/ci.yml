@@ -1,0 +1,170 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  reproducibility-checks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Show Python version
+        run: python --version
+
+      - name: Validate manifest schema
+        run: |
+          python - <<'PY'
+          import csv
+          from pathlib import Path
+
+          manifests = [
+              Path("repro/manifests/current_manuscript_core_packages.csv"),
+              Path("repro/manifests/full_estuarine_moored_sonde_packages.csv"),
+          ]
+
+          for manifest in manifests:
+              with manifest.open("r", encoding="utf-8", newline="") as f:
+                  reader = csv.DictReader(f)
+                  assert "package_id" in (reader.fieldnames or []), f"{manifest} missing package_id column"
+                  rows = list(reader)
+                  assert rows, f"{manifest} has no data rows"
+                  for i, row in enumerate(rows, start=2):
+                      package_id = row.get("package_id", "").strip()
+                      assert package_id.startswith("knb-lter-pie."), (
+                          f"{manifest}:{i} invalid package_id '{package_id}'"
+                      )
+              print(f"OK: {manifest}")
+          PY
+
+      - name: Audit manifests against repo tree
+        run: |
+          python repro/scripts/audit_manifest_local.py \
+            --manifest repro/manifests/current_manuscript_core_packages.csv \
+            --local-dir . \
+            --out repro/audit_manifest_local_ci.tsv
+          python repro/scripts/audit_manifest_local.py \
+            --manifest repro/manifests/full_estuarine_moored_sonde_packages.csv \
+            --local-dir . \
+            --out repro/audit_full_estuarine_sonde_ci.tsv
+
+      - name: Build one-package smoke manifest
+        run: |
+          python - <<'PY'
+          import csv
+          from pathlib import Path
+
+          src = Path("repro/manifests/current_manuscript_core_packages.csv")
+          dst = Path("repro/manifests/_ci_smoke_one_package.csv")
+
+          with src.open("r", encoding="utf-8", newline="") as f:
+              reader = csv.DictReader(f)
+              first = next(reader)
+
+          with dst.open("w", encoding="utf-8", newline="") as f:
+              writer = csv.DictWriter(f, fieldnames=["package_id"])
+              writer.writeheader()
+              writer.writerow({"package_id": first["package_id"]})
+
+          print(f"Smoke package: {first['package_id']}")
+          PY
+
+      - name: Download smoke package from PASTA
+        run: |
+          python repro/scripts/download_pasta_packages.py \
+            --manifest repro/manifests/_ci_smoke_one_package.csv \
+            --out-dir .ci_tmp/raw \
+            --extract \
+            --sleep 0
+
+      - name: Verify smoke package presence
+        run: |
+          python repro/scripts/audit_manifest_local.py \
+            --manifest repro/manifests/_ci_smoke_one_package.csv \
+            --local-dir .ci_tmp/raw \
+            --out .ci_tmp/audit_smoke.tsv
+          python - <<'PY'
+          import csv
+          from pathlib import Path
+
+          p = Path(".ci_tmp/audit_smoke.tsv")
+          with p.open("r", encoding="utf-8", newline="") as f:
+              rows = list(csv.DictReader(f, delimiter="\t"))
+
+          assert len(rows) == 1, "Expected exactly one smoke audit row"
+          assert rows[0]["present_any"].lower() == "true", "Smoke package not found after download"
+          print("Smoke test passed.")
+          PY
+
+      - name: Upload CI audit artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: repro-audits
+          path: |
+            repro/audit_manifest_local_ci.tsv
+            repro/audit_full_estuarine_sonde_ci.tsv
+            .ci_tmp/audit_smoke.tsv
+
+  r-sonde-analysis:
+    if: ${{ hashFiles('data/raw/pasta_sonde/**/*.csv') != '' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up R
+        uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: "release"
+
+      - name: Install R dependencies
+        uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          packages: |
+            any::dplyr
+            any::tidyr
+            any::purrr
+            any::readr
+            any::stringr
+            any::lubridate
+            any::tibble
+            any::lmtest
+            any::sandwich
+            any::ggplot2
+            any::scales
+
+      - name: Run sonde analysis pipeline
+        run: Rscript analysis/run_all.R
+
+      - name: Verify expected R outputs
+        run: |
+          test -f analysis/output/sonde/sonde_seasonal_means_junjul_augsep.csv
+          test -f analysis/output/sonde/sonde_anomaly_baselines.csv
+          test -f analysis/output/sonde/sonde_trend_results.csv
+          test -f analysis/figures/figure_temperature_raw_anomaly.png
+          test -f analysis/figures/figure_salinity_raw_anomaly.png
+
+      - name: Upload sonde analysis artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: sonde-analysis
+          path: |
+            analysis/output/sonde
+            analysis/figures
