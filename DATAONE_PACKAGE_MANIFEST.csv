@@ -1,0 +1,22 @@
+path,category,role,status,notes
+README.md,documentation,package_overview,active,Top-level package overview and reproduction order
+CODE_AVAILABILITY.md,documentation,code_availability,active,Journal and repository code availability statement
+DATA_AVAILABILITY.md,documentation,data_availability,active,Journal and repository data availability statement
+UPLOAD_CHECKLIST.md,documentation,submission_checklist,active,NCC and DataONE pre-upload checklist
+MANUSCRIPT_ALIGNMENT_NOTES.md,documentation,alignment_notes,active,Tracks synchronization between manuscript text and rerun outputs
+COMMENT_ALIGNMENT_SUMMARY.md,documentation,comment_resolution,active,Summarizes how reviewer and coauthor comments were addressed
+DATAONE_PACKAGE_MANIFEST.csv,documentation,deposit_manifest,active,Machine-readable package inventory
+environment/R_packages_minimum.txt,environment,dependency_list,active,Minimum R package requirements
+environment/session_info_2026-03-24.txt,environment,session_info,active,R session information captured during package synchronization
+run_all.R,code,reproduction_wrapper,active,Runs the four packaged analysis modules in order
+analysis/hydrography/,analysis,hydrography_module,active,Hydrography inputs and scripts for Figure 1
+analysis/discharge/,analysis,discharge_module,active,Freshwater discharge inputs and scripts for Supplementary Figure 1
+analysis/burrow/,analysis,burrow_module,active,Burrow survey inputs and scripts for Figure 2 and Supplementary Table 1
+analysis/plankton/,analysis,plankton_module,active,Food-web trend and fiddler source-support analysis for Figure 3
+analysis/plankton/PIE_Mixing_Model/fiddler_crabs/,analysis,fiddler_canonical_module,active,Authoritative mud fiddler MixSIAR analysis used for current submission values
+archive_noncanonical_20260324/,archive,noncanonical_material,archived,Retained for provenance but not part of the active submission workflow
+manuscript/NCC Fiddler_Niche_2026-03-05.docx,manuscript,layout_manuscript,active-formatting,Formatted manuscript document requiring final value propagation
+manuscript/NCC_Fiddler_Niche_submission_ready_2026-03-24.txt,manuscript,synchronized_text_source,active,Editable manuscript text aligned to current rerun outputs and comments
+figures/,outputs,figure_exports,active,Submission-ready figure files generated from the packaged analyses
+results/,outputs,derived_results,active,Analysis result tables used to support manuscript text and source data
+source_data/,outputs,source_data_tables,active,Figure-level numerical source data for journal submission and deposit

@@ -1,0 +1,22 @@
+﻿# Minimum R packages used by scripts in this repository
+
+tidyverse
+mgcv
+scales
+systemfonts
+lubridate
+Kendall
+zyp
+optparse
+patchwork
+janitor
+glmmTMB
+broom.mixed
+mblm
+forcats
+RColorBrewer
+MixSIAR
+readr
+dplyr
+tidyr
+stringr

@@ -1,0 +1,29 @@
+# Python virtual environments
+.venv/
+.venv-1/
+manuscript/.venv/
+manuscript/.venv-1/
+
+# Python cache
+**/__pycache__/
+*.pyc
+
+# Claude workspace files
+manuscript/.claude/
+.claude/
+
+# Backup / transient manuscript files
+manuscript/NCC_Fiddler_Niche_submission_ready.pre_refresh_backup.docx
+manuscript/NCC_Fiddler_Niche_submission_ready.pre_suppfig_append_backup.docx
+manuscript/NCC_Fiddler_Niche_pastable_updates*.docx
+
+# Study-area ArcPro output (large GIS files; excluded per code-availability statement)
+analysis/study_area/arcpro_output/
+figures/fig_study_area_map.*
+
+# Timestamped cloud backup (not canonical; exceeds Windows path limit)
+analysis/plankton/PIE_Mixing_Model/fiddler_crabs/model_suite_inputs_cloud_backup_*/
+
+# Model suite sensitivity-analysis outputs (derived; paths exceed Windows limit;
+# canonical MixSIAR outputs are in mixsiar_outputs/ and source_data/)
+analysis/plankton/PIE_Mixing_Model/fiddler_crabs/model_suite_outputs/
