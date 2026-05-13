@@ -22,6 +22,12 @@ Thumbs.db
 /NCC Fiddle Niche *.manuscript.txt
 /NCC Fiddle Niche *.manuscript.normalized.txt
 
+# Manuscript drafts and submission documents
+**/manuscript/
+*.doc
+*.docx
+*.rtf
+
 # Downloaded source archives and extracted package content
 /data/raw/
 

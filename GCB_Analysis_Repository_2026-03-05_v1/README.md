@@ -3,7 +3,7 @@
 This repository package contains the analysis code, input data, derived tables, and figure outputs used for the Global Change Biology manuscript submission:
 
 - `Boundary forcing and food-web rewiring permit range expansion`
-- Manuscript file: `manuscript/GCB Fiddle Niche_submission_ready_2026-03-04.docx`
+- Manuscript document files are excluded from this repository.
 
 ## Repository Layout
 
