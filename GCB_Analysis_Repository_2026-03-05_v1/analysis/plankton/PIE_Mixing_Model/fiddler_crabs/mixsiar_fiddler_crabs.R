@@ -21,7 +21,7 @@ suppressPackageStartupMessages({
 # --------------------------
 args <- commandArgs(trailingOnly = TRUE)
 folder <- if (length(args) >= 1) args[1] else
-  "C:/Users/nelso/University of Georgia/Nelson Lab UGA Marine Science-Jimmy Nelson - Documents/Jimmy Nelson/Manuscripts/NCC_PIE/plankton_figure_package/PIE_Mixing_Model/fiddler_crabs"
+  "C:/Users/nelso/University of Georgia/Nelson Lab UGA Marine Science-Jimmy Nelson - Documents/Jimmy Nelson/Manuscripts/GCB_PIE/plankton_figure_package/PIE_Mixing_Model/fiddler_crabs"
 
 # Normalize Windows path and handle spaces
 folder <- normalizePath(folder, winslash = "/", mustWork = FALSE)

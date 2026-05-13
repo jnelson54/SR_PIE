@@ -2,7 +2,7 @@
 
 This folder gathers figure files and source-data files with names aligned to the current manuscript numbering. Original analysis output filenames are left unchanged elsewhere in the repository.
 
-Figure PNGs were extracted from the current `NCC_Fiddler_Niche_submission_ready_2026_4_21.docx` manuscript file.
+Figure PNGs were extracted from the current `GCB_Fiddler_Niche_submission_ready_2026_4_21.docx` manuscript file.
 
 ## Figure numbering
 

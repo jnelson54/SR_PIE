@@ -1,6 +1,6 @@
 # GitHub + VS Code Onboarding (Student Workflow)
 
-This guide is the required workflow for working in `NCC_PIE`.
+This guide is the required workflow for working in `GCB_PIE`.
 
 Goal:
 - Keep the repository public and reproducible.
@@ -38,7 +38,7 @@ git config --global --get user.email
 
 1. In VS Code: `Ctrl+Shift+P` -> `Git: Clone`.
 2. Paste repo URL:
-- `https://github.com/jnelson54/NCC_PIE.git`
+- `https://github.com/jnelson54/GCB_PIE.git`
 3. Choose local folder.
 4. Open the cloned folder in VS Code.
 
@@ -182,7 +182,7 @@ git commit -m "Resolve merge conflict"
 
 Stop and ask before trying to fix history.
 
-## 10. Repo-Specific Notes (NCC_PIE)
+## 10. Repo-Specific Notes (GCB_PIE)
 
 - Main hydrography workflow: `analysis/run_all.R`
 - Sonde outputs: `analysis/output/sonde/`

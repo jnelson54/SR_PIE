@@ -1,4 +1,4 @@
-# PIE NCC Reproducibility Scaffold
+# PIE GCB Reproducibility Scaffold
 
 This folder contains a starter framework to make the manuscript analysis reproducible from original PIE/PASTA sources.
 

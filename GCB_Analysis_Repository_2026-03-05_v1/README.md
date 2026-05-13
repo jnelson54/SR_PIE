@@ -1,9 +1,9 @@
-﻿# NCC PIE Analysis Repository (Nature Communications Submission)
+# GCB PIE Analysis Repository (Global Change Biology Submission)
 
-This repository package contains the analysis code, input data, derived tables, and figure outputs used for the NCC manuscript submission:
+This repository package contains the analysis code, input data, derived tables, and figure outputs used for the Global Change Biology manuscript submission:
 
 - `Boundary forcing and food-web rewiring permit range expansion`
-- Manuscript file: `manuscript/NCC Fiddle Niche_submission_ready_2026-03-04.docx`
+- Manuscript file: `manuscript/GCB Fiddle Niche_submission_ready_2026-03-04.docx`
 
 ## Repository Layout
 
@@ -39,7 +39,7 @@ Run commands from repository root using the subfolder working directory shown be
    - `Rscript fig_plankton_trends_nyt_with_fiddler.R --mix aggregated_contributions.csv`
 4. Optional MixSIAR rerun
    - `cd analysis/plankton`
-   - `Rscript mixsiar_ncc_fids.R <path_to_mixsiar_input_folder>`
+   - `Rscript mixsiar_gcb_fids.R <path_to_mixsiar_input_folder>`
 
 ## Statistical Reporting Convention
 

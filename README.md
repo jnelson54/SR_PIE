@@ -27,7 +27,7 @@ python repro/scripts/download_pasta_packages.py `
   --extract
 ```
 
-See `repro/PIPELINE_PLAN.md` for the end-to-end Nature Communications-grade pipeline plan.
+See `repro/PIPELINE_PLAN.md` for the end-to-end submission-ready pipeline plan.
 
 ## R Sonde Analysis Pipeline
 

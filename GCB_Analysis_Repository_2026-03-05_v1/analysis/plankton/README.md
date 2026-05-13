@@ -1,4 +1,4 @@
-﻿# Plankton Figure Submodule
+# Plankton Figure Submodule
 
 This folder contains the food-web mixing outputs and scripts used for Figure 3.
 
@@ -13,4 +13,4 @@ Run from this folder:
 - `Rscript fig_plankton_trends_nyt_with_fiddler.R --mix aggregated_contributions.csv`
 
 Optional MixSIAR rerun:
-- `Rscript mixsiar_ncc_fids.R <path_to_mixsiar_input_folder>`
+- `Rscript mixsiar_gcb_fids.R <path_to_mixsiar_input_folder>`
