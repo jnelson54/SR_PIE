@@ -1,0 +1,21 @@
+{
+  "title": "Data and analysis code for: Warming, salinification, and food-web rewiring precede poleward expansion of a marsh ecosystem engineer",
+  "upload_type": "dataset",
+  "access_right": "open",
+  "license": "CC-BY-4.0",
+  "creators": [
+    {"name": "Nelson, James A.", "affiliation": "Department of Marine Sciences, University of Georgia"},
+    {"name": "Johnson, David S."},
+    {"name": "Weston, Nathaniel"},
+    {"name": "Lesser, Justin"},
+    {"name": "Foster, Emelie M."},
+    {"name": "Ramirez-Joseph, Lucia"},
+    {"name": "Jesseph, Emily"},
+    {"name": "Tucker, Jane"},
+    {"name": "Acosta Rodriguez, Valerie"},
+    {"name": "McClelland, James"},
+    {"name": "Giblin, Anne"},
+    {"name": "Deegan, Linda"}
+  ],
+  "description": "Analysis code, EDI data-package manifests, and figure source data supporting the Scientific Reports manuscript on warming, salinification, and food-web rewiring preceding the poleward expansion of the mud fiddler crab (Minuca pugnax) at the Plum Island Ecosystems LTER."
+}

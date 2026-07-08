@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite the associated article and this archive."
+title: "Data and analysis code for: Warming, salinification, and food-web rewiring precede poleward expansion of a marsh ecosystem engineer"
+type: dataset
+authors:
+  - family-names: Nelson
+    given-names: James A.
+    affiliation: "Department of Marine Sciences, University of Georgia"
+  - family-names: Johnson
+    given-names: David S.
+  - family-names: Weston
+    given-names: Nathaniel
+  - family-names: Lesser
+    given-names: Justin
+  - family-names: Foster
+    given-names: Emelie M.
+  - family-names: Ramirez-Joseph
+    given-names: Lucia
+  - family-names: Jesseph
+    given-names: Emily
+  - family-names: Tucker
+    given-names: Jane
+  - family-names: Acosta Rodriguez
+    given-names: Valerie
+  - family-names: McClelland
+    given-names: James
+  - family-names: Giblin
+    given-names: Anne
+  - family-names: Deegan
+    given-names: Linda
+license: CC-BY-4.0
+repository-code: "https://github.com/jnelson54/SR_PIE"

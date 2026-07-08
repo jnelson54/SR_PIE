@@ -1,51 +1,44 @@
-# SR_PIE
+# SR_PIE — Data and analysis code for the Scientific Reports manuscript
 
-Reproducible analysis scaffold for the Plum Island Estuary manuscript workflow.
+**Warming, salinification, and food-web rewiring precede poleward expansion of a marsh ecosystem engineer**
+Nelson et al., Plum Island Ecosystems (PIE) LTER.
 
-## Current status
+This repository contains the analysis code, source-data tables, and data-provenance
+manifests needed to reproduce the results and figures in the manuscript. Primary
+long-term data are archived at the Environmental Data Initiative (EDI); this repository
+documents exactly which EDI packages were used and provides the derived, analysis-ready
+outputs.
 
-- Manuscript-core source packages are listed in:
-  - `repro/manifests/current_manuscript_core_packages.csv`
-- Full estuarine moored sonde package manifest is in:
-  - `repro/manifests/full_estuarine_moored_sonde_packages.csv`
-- Download/audit tooling is in:
-  - `repro/scripts/download_pasta_packages.py`
-  - `repro/scripts/audit_manifest_local.py`
+## Contents
 
-## Quick start
+- `analysis/` — R pipeline for the estuarine sonde hydrography analysis.
+  - `run_all.R` runs `01_prepare_sonde_seasonal_data.R` -> `02_fit_trends_and_anomalies.R` -> `03_make_publication_figures.R`.
+  - Inclusion rules: IBYC+IB (lower estuary), MB+MR (upper estuary); RR/RO/RT1A excluded.
+  - Outputs written to `analysis/output/sonde/` and figures to `analysis/figures/`.
+- `repro/` — reproducibility tooling and EDI data-package provenance.
+  - `manifests/current_manuscript_core_packages.csv` — the core EDI packages used (with DOIs).
+  - `manifests/full_estuarine_moored_sonde_packages.csv` — full per-year/per-site sonde package list (2000–2025).
+  - `scripts/download_pasta_packages.py` — downloads the listed EDI/PASTA packages.
+  - `scripts/audit_manifest_local.py` — audits local copies against a manifest.
+  - `reports/sonde_coverage/` — station-by-year coverage summaries.
+- `submission_20260421/` — figure source-data tables and rendered figures underlying Figs 1–4 and Supplementary Fig. 1.
 
-```powershell
-python repro/scripts/audit_manifest_local.py `
-  --manifest repro/manifests/current_manuscript_core_packages.csv `
-  --local-dir .
-```
+## Key data sources (EDI)
+
+- Stable-isotope food-web data: `knb-lter-pie.13.11` (doi:10.6073/pasta/78895624039aaa0e75c6d71970fd7fb4).
+- Estuarine moored sonde hydrography (temperature/conductivity): per-year/per-site packages listed in `repro/manifests/full_estuarine_moored_sonde_packages.csv`.
+- Parker River discharge: USGS NWIS station 01101000 (https://waterdata.usgs.gov/monitoring-location/01101000/).
+
+## Reproduce
 
 ```powershell
 python repro/scripts/download_pasta_packages.py `
   --manifest repro/manifests/current_manuscript_core_packages.csv `
-  --out-dir data/raw/pasta `
-  --extract
+  --out-dir data/raw/pasta --extract
+
+Rscript analysis/run_all.R
 ```
 
-See `repro/PIPELINE_PLAN.md` for the end-to-end submission-ready pipeline plan.
+## Citation
 
-## R Sonde Analysis Pipeline
-
-The full reproducible sonde anomaly workflow for the manuscript is in:
-
-- `analysis/run_all.R`
-- `analysis/README.md`
-
-It uses original files under `data/raw/pasta_sonde`, applies the study inclusion rules
-(`IBYC+IB`, `MB+MR`, exclude `RR`/`RO`/`RT1A`), and builds June-July and August-September
-seasonal raw and anomaly outputs plus publication-ready figures.
-
-```powershell
-"C:\Program Files\R\R-4.5.2\bin\Rscript.exe" analysis\run_all.R
-```
-
-## Student Onboarding
-
-For student collaborators using VS Code, use:
-
-- `docs/github_vscode_onboarding.md`
+See `CITATION.cff`. Please cite the associated article and this archive (Zenodo DOI).
