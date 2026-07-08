@@ -1,4 +1,4 @@
-# GCB PIE Analysis Repository (Global Change Biology Submission)
+# PIE Analysis Repository (Scientific Reports Submission)
 
 This repository package contains the analysis code, input data, derived tables, and figure outputs used for the Global Change Biology manuscript submission:
 
