@@ -1,4 +1,4 @@
-# GCB_PIE
+# SR_PIE
 
 Reproducible analysis scaffold for the Plum Island Estuary manuscript workflow.
 
