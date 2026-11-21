@@ -2,6 +2,7 @@ cff-version: 1.2.0
 message: "If you use this software or data, please cite the associated article and this archive."
 title: "Data and analysis code for: Warming, salinification, and food-web rewiring precede poleward expansion of a marsh ecosystem engineer"
 type: dataset
+version: 1.1.0
 authors:
   - family-names: Nelson
     given-names: James A.

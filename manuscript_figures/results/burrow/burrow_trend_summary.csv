@@ -1,0 +1,3 @@
+analysis,response,estimate,estimate_units,p_value,q_value,sig_p,sig_q,annual_percent_change,annual_percent_change_ci_low,annual_percent_change_ci_high,start_year,end_year,occupancy_2014,occupancy_2019,occupancy_latest,latest_year
+log_linear_annual_median,across_creek_median_burrow_density_m2,0.3396981548865327,log1p density per year,7.548100531535917e-4,0.0015096201063071835,***,**,40.45235779949847,19.851747658946884,64.59388533551969,2014,2025,0.5,1,1,2025
+kendall_annual_median,across_creek_median_burrow_density_m2,0.7587869167327881,Kendall tau,0.0023016929626464844,0.0023016929626464844,**,**,NA,NA,NA,2014,2025,0.5,1,1,2025

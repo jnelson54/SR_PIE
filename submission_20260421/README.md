@@ -4,6 +4,8 @@ This folder gathers figure files and source-data files with names aligned to the
 
 Figure PNGs were extracted from the current `GCB_Fiddler_Niche_submission_ready_2026_4_21.docx` manuscript file.
 
+Note (archive v1.1.0): `figures/Fig1_map.png` has been removed. That map used a commercial imagery basemap. The current Fig. 1, drawn on public-domain USGS base maps, is `manuscript_figures/figures/Fig1_study_area_map.png`.
+
 ## Figure numbering
 
 - Fig1: study area and sampling locations.

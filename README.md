@@ -11,7 +11,7 @@ outputs.
 
 ## Contents
 
-- `analysis/` — R pipeline for the estuarine sonde hydrography analysis.
+- `analysis/` — R pipeline that parses the raw EDI sonde files and summarises coverage and June–September anomalies. It documents data provenance and coverage; it does not produce a manuscript figure (Fig. 2 is produced by `manuscript_figures/`).
   - `run_all.R` runs `01_prepare_sonde_seasonal_data.R` -> `02_fit_trends_and_anomalies.R` -> `03_make_publication_figures.R`.
   - Inclusion rules: IBYC+IB (lower estuary), MB+MR (upper estuary); RR/RO/RT1A excluded.
   - Outputs written to `analysis/output/sonde/` and figures to `analysis/figures/`.
@@ -21,7 +21,8 @@ outputs.
   - `scripts/download_pasta_packages.py` — downloads the listed EDI/PASTA packages.
   - `scripts/audit_manifest_local.py` — audits local copies against a manifest.
   - `reports/sonde_coverage/` — station-by-year coverage summaries.
-- `submission_20260421/` — figure source-data tables and rendered figures underlying Figs 1–4 and Supplementary Fig. 1.
+- `submission_20260421/` — figure source-data tables and rendered figures underlying Figs 2–4 and Supplementary Fig. 1, as submitted, with the Fig. 1 site coordinates.
+- `manuscript_figures/` — R scripts and inputs that regenerate Figs 2–4, Supplementary Fig. 1 and Supplementary Tables 2 and 4, and a Python script that draws Fig. 1 on public-domain USGS base maps, with a check against the archived source data (added in v1.1.0; see `manuscript_figures/README.md`).
 
 ## Key data sources (EDI)
 
@@ -38,6 +39,17 @@ python repro/scripts/download_pasta_packages.py `
 
 Rscript analysis/run_all.R
 ```
+
+To regenerate the manuscript figures and check them against the archived source data (no download needed):
+
+```
+Rscript manuscript_figures/run_all.R
+```
+
+## Version history
+
+- 1.1.0 (2026-11): added `manuscript_figures/` (figure scripts, inputs, reproduction check). Fig. 1 redrawn on public-domain USGS base maps. Corrected the false-discovery-rate adjustment of the hydrographic trend tests (see `manuscript_figures/README.md`).
+- 1.0.1 (2026-07): figure source data, rendered figures, EDI manifests and sonde coverage pipeline.
 
 ## Citation
 

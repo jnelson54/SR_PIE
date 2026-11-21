@@ -1,0 +1,5 @@
+species,slope,intercept,p_value,model,test_set,q_value,sig_q
+Blue mussels,0.03839696495137931,0.28103146479297814,0.0029231695159630737,lm(mean_contr ~ year0 + region),species,0.006820728870580506,significant increase
+mummichog,-0.0010383446553757611,0.5480262190613414,0.5019626044385586,lm(mean_contr ~ year0 + region),species,0.5656605640341046,no trend
+silversides,0.03933802530496825,-0.21020331005179685,2.848603613798797e-4,lm(mean_contr ~ year0 + region),species,0.001994022529659158,significant increase
+softshell clam,0.04421567074475524,0.3641004864038463,9.263941005972806e-4,lm(mean_contr ~ year0 + region),species,0.003242379352090482,significant increase

@@ -1,0 +1,17 @@
+analysis,Region,variable,slope_dec,lo,hi,p,n,q
+"A. as published (two bins/yr, May-Jun & Jul-Oct)",Lower,Temp,0.7954,0.4665,1.133,0,50,0
+"A. as published (two bins/yr, May-Jun & Jul-Oct)",Lower,Cond,1.2902,0.3582,2.2197,0.009,50,0.018
+"A. as published (two bins/yr, May-Jun & Jul-Oct)",Upper,Temp,0.8932,0.1789,1.4474,0.0236,39,0.0315
+"A. as published (two bins/yr, May-Jun & Jul-Oct)",Upper,Cond,1.984,-2.2164,5.1732,0.2373,39,0.2373
+B. drop bins with <20 high-tide obs,Lower,Temp,0.7477,0.4497,1.0626,0,48,0
+B. drop bins with <20 high-tide obs,Lower,Cond,1.1639,0.235,2.1712,0.0189,48,0.0252
+B. drop bins with <20 high-tide obs,Upper,Temp,1.0345,0.2768,1.5623,0.0073,38,0.0146
+B. drop bins with <20 high-tide obs,Upper,Cond,1.9531,-2.5664,5.1009,0.2663,38,0.2663
+C. one value/yr (mean of the two bin anomalies),Lower,Temp,0.6817,0.378,1.0483,1e-4,25,4e-4
+C. one value/yr (mean of the two bin anomalies),Lower,Cond,1.2707,0.2881,2.989,0.0161,25,0.0322
+C. one value/yr (mean of the two bin anomalies),Upper,Temp,0.7688,-0.2933,1.4394,0.1075,20,0.1433
+C. one value/yr (mean of the two bin anomalies),Upper,Cond,1.2948,-2.8814,5.6218,0.4841,20,0.4841
+"D. Apr-Nov, monthly climatology, annual mean of monthly anomalies",Lower,Temp,0.5262,0.2298,0.8679,0.001,25,0.004
+"D. Apr-Nov, monthly climatology, annual mean of monthly anomalies",Lower,Cond,1.3495,-0.4533,2.3391,0.0965,25,0.1287
+"D. Apr-Nov, monthly climatology, annual mean of monthly anomalies",Upper,Temp,0.4381,0.1262,0.7049,0.0143,20,0.0286
+"D. Apr-Nov, monthly climatology, annual mean of monthly anomalies",Upper,Cond,0.88,-4.3975,4.3931,0.8887,20,0.8887

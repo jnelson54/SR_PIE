@@ -1,0 +1,23 @@
+{
+  "main": {
+    "file": "usgs_imagery_pie_main.jpg",
+    "service": "https://basemap.nationalmap.gov/arcgis/rest/services/USGSImageryOnly/MapServer",
+    "credit": "USDA, USGS The National Map: Orthoimagery (NAIP). Public domain.",
+    "retrieved": "2026-11-21",
+    "lon": [-70.935, -70.755],
+    "lat": [42.675, 42.790],
+    "bbox3857": [-7896448.079420861, 5262633.6418596655, -7876410.57107807, 5280062.134487856],
+    "size": [3000, 2609]
+  },
+  "inset": {
+    "file": "usgs_topo_pie_inset.jpg",
+    "service": "https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer",
+    "credit": "USGS The National Map (USGSTopo base map). Public domain.",
+    "retrieved": "2026-11-21",
+    "lon": [-72.35, -69.85],
+    "lat": [41.45, 43.2],
+    "bbox3857": [-8053965.158893343, 5078944.868733779, -7775666.431910158, 5342463.601958378],
+    "size": [900, 852]
+  },
+  "export_request": "{service}/export?bbox={bbox3857}&bboxSR=3857&imageSR=3857&size={size}&format=jpg&f=image"
+}

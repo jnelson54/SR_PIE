@@ -1,0 +1,137 @@
+
+#################################################################
+# Summary Statistics
+#################################################################
+
+DIC = 15.7348
+
+                             Mean    SD  2.5%    5%   25%   50%   75%   95%
+num.SD                      0.088 0.069 0.003 0.007 0.034 0.074 0.124 0.227
+p.global.benthic microalgae 0.007 0.008 0.000 0.000 0.002 0.005 0.010 0.023
+p.global.pom                0.736 0.027 0.678 0.690 0.718 0.737 0.755 0.778
+p.global.spartina           0.257 0.029 0.204 0.211 0.237 0.256 0.276 0.305
+p.num 1.benthic microalgae  0.007 0.008 0.000 0.000 0.002 0.005 0.010 0.023
+p.num 2.benthic microalgae  0.007 0.008 0.000 0.000 0.002 0.005 0.010 0.022
+p.num 3.benthic microalgae  0.008 0.008 0.000 0.000 0.002 0.005 0.010 0.023
+p.num 4.benthic microalgae  0.008 0.008 0.000 0.000 0.002 0.005 0.011 0.023
+p.num 5.benthic microalgae  0.008 0.008 0.000 0.000 0.002 0.005 0.010 0.023
+p.num 6.benthic microalgae  0.008 0.008 0.000 0.000 0.002 0.005 0.011 0.023
+p.num 7.benthic microalgae  0.008 0.008 0.000 0.000 0.002 0.005 0.011 0.023
+p.num 8.benthic microalgae  0.007 0.008 0.000 0.000 0.002 0.005 0.010 0.023
+p.num 9.benthic microalgae  0.008 0.008 0.000 0.000 0.002 0.005 0.010 0.023
+p.num 10.benthic microalgae 0.008 0.008 0.000 0.000 0.002 0.005 0.011 0.023
+p.num 11.benthic microalgae 0.008 0.008 0.000 0.000 0.002 0.005 0.010 0.023
+p.num 12.benthic microalgae 0.007 0.008 0.000 0.000 0.002 0.005 0.010 0.023
+p.num 13.benthic microalgae 0.007 0.008 0.000 0.000 0.002 0.005 0.010 0.023
+p.num 14.benthic microalgae 0.008 0.008 0.000 0.000 0.002 0.005 0.010 0.023
+p.num 15.benthic microalgae 0.008 0.008 0.000 0.000 0.002 0.005 0.010 0.023
+p.num 16.benthic microalgae 0.008 0.008 0.000 0.000 0.002 0.005 0.010 0.023
+p.num 17.benthic microalgae 0.008 0.008 0.000 0.000 0.002 0.005 0.010 0.023
+p.num 18.benthic microalgae 0.008 0.008 0.000 0.000 0.002 0.005 0.010 0.023
+p.num 19.benthic microalgae 0.008 0.008 0.000 0.000 0.002 0.005 0.010 0.023
+p.num 20.benthic microalgae 0.007 0.008 0.000 0.000 0.002 0.005 0.010 0.022
+p.num 1.pom                 0.741 0.036 0.669 0.683 0.720 0.742 0.764 0.800
+p.num 2.pom                 0.740 0.042 0.652 0.675 0.718 0.742 0.765 0.804
+p.num 3.pom                 0.727 0.040 0.635 0.656 0.707 0.732 0.753 0.785
+p.num 4.pom                 0.722 0.040 0.628 0.653 0.702 0.727 0.748 0.778
+p.num 5.pom                 0.740 0.036 0.668 0.681 0.718 0.740 0.763 0.798
+p.num 6.pom                 0.733 0.035 0.658 0.672 0.712 0.735 0.756 0.787
+p.num 7.pom                 0.732 0.037 0.649 0.668 0.710 0.735 0.756 0.789
+p.num 8.pom                 0.736 0.036 0.657 0.673 0.714 0.738 0.759 0.792
+p.num 9.pom                 0.726 0.040 0.632 0.657 0.706 0.731 0.753 0.782
+p.num 10.pom                0.728 0.040 0.637 0.658 0.706 0.732 0.754 0.785
+p.num 11.pom                0.737 0.039 0.655 0.675 0.715 0.739 0.761 0.798
+p.num 12.pom                0.738 0.037 0.658 0.675 0.715 0.739 0.762 0.795
+p.num 13.pom                0.739 0.037 0.662 0.679 0.718 0.741 0.762 0.798
+p.num 14.pom                0.735 0.037 0.651 0.670 0.713 0.738 0.759 0.790
+p.num 15.pom                0.737 0.035 0.664 0.678 0.715 0.738 0.759 0.791
+p.num 16.pom                0.739 0.036 0.665 0.679 0.718 0.740 0.761 0.795
+p.num 17.pom                0.735 0.037 0.656 0.675 0.714 0.737 0.759 0.790
+p.num 18.pom                0.736 0.038 0.656 0.672 0.715 0.738 0.761 0.793
+p.num 19.pom                0.738 0.034 0.665 0.679 0.717 0.739 0.760 0.790
+p.num 20.pom                0.741 0.037 0.666 0.679 0.718 0.742 0.765 0.801
+p.num 1.spartina            0.251 0.037 0.177 0.192 0.228 0.251 0.274 0.310
+p.num 2.spartina            0.252 0.043 0.167 0.186 0.227 0.251 0.275 0.319
+p.num 3.spartina            0.265 0.041 0.195 0.206 0.239 0.261 0.287 0.337
+p.num 4.spartina            0.270 0.041 0.202 0.212 0.243 0.265 0.291 0.340
+p.num 5.spartina            0.253 0.037 0.180 0.192 0.229 0.252 0.276 0.314
+p.num 6.spartina            0.260 0.037 0.192 0.203 0.236 0.258 0.281 0.323
+p.num 7.spartina            0.260 0.039 0.191 0.202 0.235 0.257 0.282 0.325
+p.num 8.spartina            0.257 0.038 0.187 0.198 0.232 0.255 0.280 0.322
+p.num 9.spartina            0.266 0.041 0.198 0.209 0.240 0.262 0.289 0.336
+p.num 10.spartina           0.264 0.042 0.196 0.205 0.238 0.260 0.287 0.336
+p.num 11.spartina           0.255 0.040 0.179 0.194 0.231 0.254 0.278 0.319
+p.num 12.spartina           0.255 0.038 0.180 0.195 0.229 0.254 0.278 0.320
+p.num 13.spartina           0.253 0.038 0.179 0.192 0.230 0.252 0.276 0.315
+p.num 14.spartina           0.258 0.038 0.190 0.201 0.232 0.255 0.280 0.324
+p.num 15.spartina           0.256 0.037 0.186 0.199 0.233 0.255 0.278 0.317
+p.num 16.spartina           0.254 0.037 0.181 0.196 0.229 0.253 0.276 0.315
+p.num 17.spartina           0.257 0.038 0.188 0.201 0.233 0.256 0.280 0.319
+p.num 18.spartina           0.256 0.039 0.185 0.197 0.231 0.255 0.278 0.322
+p.num 19.spartina           0.255 0.036 0.189 0.200 0.232 0.253 0.277 0.314
+p.num 20.spartina           0.251 0.039 0.175 0.190 0.227 0.251 0.275 0.315
+                            97.5%
+num.SD                      0.261
+p.global.benthic microalgae 0.028
+p.global.pom                0.784
+p.global.spartina           0.317
+p.num 1.benthic microalgae  0.028
+p.num 2.benthic microalgae  0.027
+p.num 3.benthic microalgae  0.029
+p.num 4.benthic microalgae  0.029
+p.num 5.benthic microalgae  0.028
+p.num 6.benthic microalgae  0.028
+p.num 7.benthic microalgae  0.029
+p.num 8.benthic microalgae  0.028
+p.num 9.benthic microalgae  0.029
+p.num 10.benthic microalgae 0.029
+p.num 11.benthic microalgae 0.029
+p.num 12.benthic microalgae 0.028
+p.num 13.benthic microalgae 0.028
+p.num 14.benthic microalgae 0.028
+p.num 15.benthic microalgae 0.028
+p.num 16.benthic microalgae 0.028
+p.num 17.benthic microalgae 0.028
+p.num 18.benthic microalgae 0.029
+p.num 19.benthic microalgae 0.028
+p.num 20.benthic microalgae 0.028
+p.num 1.pom                 0.812
+p.num 2.pom                 0.820
+p.num 3.pom                 0.794
+p.num 4.pom                 0.788
+p.num 5.pom                 0.812
+p.num 6.pom                 0.799
+p.num 7.pom                 0.800
+p.num 8.pom                 0.803
+p.num 9.pom                 0.790
+p.num 10.pom                0.795
+p.num 11.pom                0.812
+p.num 12.pom                0.808
+p.num 13.pom                0.813
+p.num 14.pom                0.801
+p.num 15.pom                0.806
+p.num 16.pom                0.809
+p.num 17.pom                0.802
+p.num 18.pom                0.806
+p.num 19.pom                0.802
+p.num 20.pom                0.815
+p.num 1.spartina            0.324
+p.num 2.spartina            0.341
+p.num 3.spartina            0.358
+p.num 4.spartina            0.369
+p.num 5.spartina            0.326
+p.num 6.spartina            0.337
+p.num 7.spartina            0.344
+p.num 8.spartina            0.338
+p.num 9.spartina            0.359
+p.num 10.spartina           0.357
+p.num 11.spartina           0.339
+p.num 12.spartina           0.336
+p.num 13.spartina           0.331
+p.num 14.spartina           0.344
+p.num 15.spartina           0.331
+p.num 16.spartina           0.329
+p.num 17.spartina           0.337
+p.num 18.spartina           0.337
+p.num 19.spartina           0.329
+p.num 20.spartina           0.329

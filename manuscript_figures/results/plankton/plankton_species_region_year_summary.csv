@@ -1,0 +1,102 @@
+species,region,year,mean_contr,year0
+Blue mussels,lower,2009,0.144986505,0
+Blue mussels,lower,2010,0.152632955,1
+Blue mussels,lower,2011,0.423014301,2
+Blue mussels,lower,2012,0.104566127,3
+Blue mussels,lower,2013,0.266722007,4
+Blue mussels,lower,2015,0.58044751000000006,6
+Blue mussels,lower,2016,0.7626954,7
+Blue mussels,lower,2017,0.862461246,8
+Blue mussels,lower,2018,0.604326208,9
+Blue mussels,lower,2019,0.414202719,10
+Blue mussels,lower,2020,0.327837216,11
+Blue mussels,middle,2009,0.24418353,0
+Blue mussels,middle,2010,0.26269215,1
+Blue mussels,middle,2011,0.648763244,2
+Blue mussels,middle,2012,0.205939592,3
+Blue mussels,middle,2013,0.477308673,4
+Blue mussels,middle,2014,0.264864467,5
+Blue mussels,middle,2015,0.569666737,6
+Blue mussels,middle,2016,0.612825767,7
+Blue mussels,middle,2017,0.651908217,8
+Blue mussels,middle,2018,0.70012437,9
+Blue mussels,middle,2020,0.603299403,11
+mummichog,lower,2009,0.538408502,0
+mummichog,lower,2010,0.572867004,1
+mummichog,lower,2012,0.538953285,3
+mummichog,lower,2013,0.543766654,4
+mummichog,lower,2014,0.51771781,5
+mummichog,lower,2015,0.555281704,6
+mummichog,lower,2016,0.536779527,7
+mummichog,lower,2017,0.528664113,8
+mummichog,lower,2018,0.540101466,9
+mummichog,lower,2019,0.528245973,10
+mummichog,lower,2020,0.543452213,11
+mummichog,middle,2009,0.521638283,0
+mummichog,middle,2010,0.608505187,1
+mummichog,middle,2011,0.50152439,2
+mummichog,middle,2012,0.518276929,3
+mummichog,middle,2013,0.571480152,4
+mummichog,middle,2014,0.551914989,5
+mummichog,middle,2015,0.552962251,6
+mummichog,middle,2016,0.522686096,7
+mummichog,middle,2019,0.5374973715,10
+mummichog,middle,2020,0.542897654,11
+silversides,lower,2009,0.23850939,0
+silversides,lower,2010,0.166848671,1
+silversides,lower,2011,0.349431016,2
+silversides,lower,2012,0.046385971,3
+silversides,lower,2013,0.262130268,4
+silversides,lower,2014,0.16911809,5
+silversides,lower,2015,0.863586146,6
+silversides,lower,2016,0.730733109,7
+silversides,lower,2017,0.852063585,8
+silversides,lower,2018,0.357212293,9
+silversides,lower,2019,0.772874812,10
+silversides,lower,2020,0.574965056,11
+silversides,middle,2009,0.215632271,0
+silversides,middle,2010,0.21020421,1
+silversides,middle,2011,0.518663291,2
+silversides,middle,2012,0.292289111,3
+silversides,middle,2013,0.389542655,4
+silversides,middle,2014,0.212871125,5
+silversides,middle,2015,0.782769587,6
+silversides,middle,2016,0.751596471,7
+silversides,middle,2017,0.810857025,8
+silversides,middle,2018,0.551491948,9
+silversides,middle,2019,0.802262633,10
+silversides,middle,2020,0.568718364,11
+silversides,upper,2010,0.026769406,1
+silversides,upper,2012,0.010638026,3
+silversides,upper,2013,0.007962926,4
+silversides,upper,2014,0.041377298,5
+silversides,upper,2015,0.020670988,6
+silversides,upper,2016,0.012046767,7
+silversides,upper,2017,0.215693666,8
+silversides,upper,2018,0.026853646,9
+silversides,upper,2019,0.031897822,10
+silversides,upper,2020,0.021689974,11
+softshell clam,lower,2009,0.012273543,0
+softshell clam,lower,2010,0.086805988,1
+softshell clam,lower,2011,0.366162618,2
+softshell clam,lower,2012,0.071658607,3
+softshell clam,lower,2013,0.366153948,4
+softshell clam,lower,2014,0.199122305,5
+softshell clam,lower,2015,0.789880737,6
+softshell clam,lower,2016,0.621278307,7
+softshell clam,lower,2017,0.762343774,8
+softshell clam,lower,2018,0.376820156,9
+softshell clam,lower,2019,0.461586418,10
+softshell clam,lower,2020,0.397668507,11
+softshell clam,middle,2009,0.381729101,0
+softshell clam,middle,2010,0.289308551,1
+softshell clam,middle,2011,0.656227901,2
+softshell clam,middle,2012,0.184681409,3
+softshell clam,middle,2013,0.56931041,4
+softshell clam,middle,2014,0.524109928,5
+softshell clam,middle,2015,0.635827416,6
+softshell clam,middle,2016,0.933337665,7
+softshell clam,middle,2017,0.918755052,8
+softshell clam,middle,2018,0.874022062,9
+softshell clam,middle,2019,0.661265582,10
+softshell clam,middle,2020,0.658865029,11
